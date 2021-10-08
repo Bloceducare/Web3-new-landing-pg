@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Ewert&family=Fruktur&family=Rampart+One&family=Rubik+Beastly&display=swap');@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Ewert&family=Fruktur&family=Rubik+Beastly&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+.navbar-dark .navbar-nav .nav-link{
+    display: inline-block;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-right: 30px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #00aee6;
+}
+
+.navbar-nav{
+    align-items: center;
+}
+.row{
+    align-items: center;
+    margin: 4rem 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.row h1{
+    font-size: 30px;
+    font-weight: 700 ;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.row h5{
+    font-size: 1.2rem;
+    line-height: 2rem;
+    padding-bottom: 1rem;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.btn-div{
+    margin-bottom: 10px;
+}
+
