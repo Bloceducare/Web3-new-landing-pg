@@ -16,7 +16,7 @@ const Register = () => {
                         The track will be building on the result of the pilot program to increase the impact and
                         the reach of the track
                     </p>
-                    <Button variant="info" href="" disabled>Register</Button>
+                    <Button variant="info" href="https://forms.gle/3nPRxXTcFn9prSNv9" >Register</Button>
                </Col>
                <Col>
                     <RegTag2>Web3Bridge</RegTag2>
@@ -37,7 +37,7 @@ const Register = () => {
                         The garage will be focused on learning product life cycle user research, community engagement,
                         marketing and within 12 weeks will be breaking and fixing codes to launch projects/ products
                     </p>
-                    <Button variant="info" href="" disabled>Register</Button>
+                    <Button variant="info" href="https://forms.gle/JMU8jKUsnzT7QxcD6">Register</Button>
                </Col>
            </Row>
         </Container> 
