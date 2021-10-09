@@ -1,12 +1,13 @@
 "use strict";
 import React, { Component } from 'react'
-import { Image, Tab, Tabs} from 'react-bootstrap';
+import { Image, Tab,Col,Row} from 'react-bootstrap';
 import { Flex, Tag1, Tag3, Tag2,LogoH, Div2} from './Raffle.style';
 import {Web3ReactProvider} from '@web3-react/core';
 import web3 from 'web3';
 import ConnectBtn from '../../components/ConnectBtn';
-import { PageDiv } from '../../components/Tag'
 import ViewWinner from '../../components/ViewWinner';
+import { Span1, Span2, Span3,PageDiv} from '../../components/Tag';
+import Countdown from 'react-countdown';
 
 
 
@@ -14,12 +15,11 @@ const getLibrary = (provider) => {
   return new web3(provider);
 }
 
-let ans;
-const Raffle = () => {
-
-    return (
-        <>
-          <Web3ReactProvider getLibrary={getLibrary}>
+const renderer = ({hours, minutes, seconds, completed}) => {
+  if (completed) {
+    return(
+    <>
+  <Web3ReactProvider getLibrary={getLibrary}>
           <PageDiv>
             <ConnectBtn />
             <Flex>
@@ -51,12 +51,42 @@ const Raffle = () => {
               <ViewWinner />
             </Flex>
           </PageDiv>
-          {/* <Div2>
-            <Flex>
-              <Image src={`images/raffle.svg`}/>
-            </Flex>
-          </Div2> */}
           </Web3ReactProvider>
+    </>
+    )
+  } else {
+      return (
+        <PageDiv>
+          <Flex>
+              <Image src={`images/const.svg`}/>
+          </Flex>
+          <Flex>
+            <Row>
+              <Col>
+                <Span1>{hours}</Span1>
+                <Flex><h1>HOURS</h1></Flex>
+              </Col>  
+              <Col>
+                <Span2>{minutes}</Span2>
+                <Flex><h1>MINUTES</h1></Flex>
+              </Col>
+              <Col>
+                <Span3>{seconds} </Span3>
+                <Flex><h1>SECONDS</h1></Flex>
+              </Col>
+            </Row>
+          </Flex>
+        </PageDiv>
+      )
+  }
+}
+
+let ans;
+const Raffle = () => {
+
+    return (
+        <>
+      <Countdown date={'2021-10-14T13:00:00'} renderer={renderer}/>
         </>
     )
 }

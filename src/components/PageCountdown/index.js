@@ -24,7 +24,7 @@ const Page = () => {
 
     return (
         <div>
-            <Countdown date={1633687952000} renderer={renderer}/>
+            <Countdown date={74878} renderer={renderer}/>
         </div>
     )
 }
