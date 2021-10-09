@@ -12,6 +12,7 @@ outline: none;
 cursor: pointer;
 transition: all 0.2s ease-in-out;
 text-decoration: none;
+margin-right: 0px;
 
 &:hover{
     transition: all 0.2s ease-in-out;

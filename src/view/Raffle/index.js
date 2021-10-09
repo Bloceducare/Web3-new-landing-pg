@@ -1,22 +1,25 @@
+"use strict";
 import React, { Component } from 'react'
-import { Button, Col, Container, Row, Image, Tab, Tabs} from 'react-bootstrap';
-import { Img, Flex, Tag1, BackgroundDiv,Tag3, Tag2, TextDiv,LogoH, Div2} from './Raffle.style';
-import { Logo } from '../../components/NavBar/Navbar.style';
+import { Image, Tab, Tabs} from 'react-bootstrap';
+import { Flex, Tag1, Tag3, Tag2,LogoH, Div2} from './Raffle.style';
 import {Web3ReactProvider} from '@web3-react/core';
 import web3 from 'web3';
 import ConnectBtn from '../../components/ConnectBtn';
-import { PageDiv } from '../../components/Tag';
+import { PageDiv } from '../../components/Tag'
+import ViewWinner from '../../components/ViewWinner';
+
+
 
 const getLibrary = (provider) => {
   return new web3(provider);
 }
 
-
+let ans;
 const Raffle = () => {
+
     return (
         <>
           <Web3ReactProvider getLibrary={getLibrary}>
-          {/* <Img src={`images/backk.svg`}/> */}
           <PageDiv>
             <ConnectBtn />
             <Flex>
@@ -45,25 +48,14 @@ const Raffle = () => {
               </Tag3>
             </Flex>
             <Flex>
-              <Button>Check Your Raffle Number</Button>
+              <ViewWinner />
             </Flex>
           </PageDiv>
-          <Div2>
+          {/* <Div2>
             <Flex>
               <Image src={`images/raffle.svg`}/>
             </Flex>
-            <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
-              <Tab eventKey="home" title="Home">
-                
-              </Tab>
-              <Tab eventKey="profile" title="Profile">
-                {/* <Sonnet /> */}
-              </Tab>
-              <Tab eventKey="contact" title="Contact">
-                {/* <Sonnet /> */}
-              </Tab>
-            </Tabs>
-          </Div2>
+          </Div2> */}
           </Web3ReactProvider>
         </>
     )

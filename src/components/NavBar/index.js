@@ -25,8 +25,8 @@ export const NavBar = () => {
               <NavDropdown.Item href="https://twitter.com/Web3Bridge?s=20">Twitter</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="#link" onClick={handleShow}>Sign in</Nav.Link>
+              <Nav.Link href="/Raffle">Raffle</Nav.Link>
               <Count/>
-              <Btn to="/Raffle">Raffle</Btn>
             </Nav>
             </Navbar.Collapse>
           </Container>

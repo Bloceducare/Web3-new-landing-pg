@@ -25,7 +25,7 @@ export const RegTag2 = styled.h4`
 `
 
 export const Span1 = styled.div`
-   padding: 41px 58px;
+    padding: 41px 58px;
     color: white;
     background-color: #102940;
     border-radius: 10px;
@@ -34,7 +34,7 @@ export const Span1 = styled.div`
 `
 
 export const Span2 = styled.div`
-   padding: 41px 58px;
+    padding: 41px 58px;
     color: white;
     background-color: #25210F;
     border-radius: 10px;
@@ -42,7 +42,7 @@ export const Span2 = styled.div`
     font-family: 'Bebas Neue', cursive;
 `
 export const Span3 = styled.div`
-   padding: 41px 58px;
+    padding: 41px 58px;
     color: white;
     background-color: #186809;
     border-radius: 10px;
@@ -54,3 +54,13 @@ export const PageDiv = styled.div`
     background-color: #E5E5E5;
 `
 
+export const BtnDiv = styled.div`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+`
+export const Raftag = styled.h6`
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    font-size: 16px;
+`

@@ -1,5 +1,5 @@
 import React from "react";
-import { Col,Row,Container} from "react-bootstrap";
+import { Col,Row,Container,Button} from "react-bootstrap";
 import { Links } from "../../components/Link";
 import { RegTag1,RegTag2} from "../../components/Tag";
 
@@ -16,7 +16,7 @@ const Register = () => {
                         The track will be building on the result of the pilot program to increase the impact and
                         the reach of the track
                     </p>
-                    <Links href="">Register</Links>
+                    <Button variant="info" href="" disabled>Register</Button>
                </Col>
                <Col>
                     <RegTag2>Web3Bridge</RegTag2>
@@ -37,7 +37,7 @@ const Register = () => {
                         The garage will be focused on learning product life cycle user research, community engagement,
                         marketing and within 12 weeks will be breaking and fixing codes to launch projects/ products
                     </p>
-                    <Links href="">Register</Links>
+                    <Button variant="info" href="" disabled>Register</Button>
                </Col>
            </Row>
         </Container> 
