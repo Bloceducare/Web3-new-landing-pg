@@ -86,7 +86,7 @@ const Raffle = () => {
 
     return (
         <>
-      <Countdown date={'2021-10-14T13:00:00'} renderer={renderer}/>
+      <Countdown date={'2021-10-11T13:00:00'} renderer={renderer}/>
         </>
     )
 }
