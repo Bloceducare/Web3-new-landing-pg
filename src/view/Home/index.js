@@ -31,7 +31,7 @@ const Home = () => {
                 <Col sm={12} lg={6}>
                     <h1> Impact and Contributions</h1>
                     <h5>
-                        Over the past 9-months we have introduced and trained capacity in Blockchain, Web2 and Web3 technologies
+                        Over the past 18-months we have introduced and trained capacity in Blockchain, Web2 and Web3 technologies
                     </h5>
                     <h5>
                         Our poll of specialist in expertise in various blockchain, web and mobile technology are contineously training and
