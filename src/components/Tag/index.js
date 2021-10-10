@@ -48,6 +48,9 @@ export const Span3 = styled.div`
     border-radius: 10px;
     font-size: 55px;
     font-family: 'Bebas Neue', cursive;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 `
 
 export const PageDiv = styled.div`

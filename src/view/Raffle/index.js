@@ -70,7 +70,7 @@ const renderer = ({hours, minutes, seconds, completed}) => {
                 <Span2>{minutes}</Span2>
                 <Flex><h1>MINUTES</h1></Flex>
               </Col>
-              <Col>
+              <Col >
                 <Span3>{seconds} </Span3>
                 <Flex><h1>SECONDS</h1></Flex>
               </Col>
