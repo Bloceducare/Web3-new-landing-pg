@@ -30,7 +30,10 @@ export const Span1 = styled.div`
     background-color: #102940;
     border-radius: 10px;
     font-size: 55px;
-    font-family: 'Bebas Neue', cursive;;
+    font-family: 'Bebas Neue', cursive;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 `
 
 export const Span2 = styled.div`
@@ -40,6 +43,9 @@ export const Span2 = styled.div`
     border-radius: 10px;
     font-size: 55px;
     font-family: 'Bebas Neue', cursive;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 `
 export const Span3 = styled.div`
     padding: 41px 58px;
