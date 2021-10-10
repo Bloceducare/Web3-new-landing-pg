@@ -58,7 +58,7 @@ const renderer = ({hours, minutes, seconds, completed}) => {
       return (
         <PageDiv>
           <Flex>
-              <Image src={`images/const.svg`}/>
+              <Image src={`images/const.svg`} fluid/>
           </Flex>
           <Flex>
             <Row>
