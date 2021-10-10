@@ -46,7 +46,7 @@ const ViewWinner = () => {
                     <Modal.Header closeButton>
                         <Modal.Title>Winner</Modal.Title>
                     </Modal.Header>
-                        <Modal.Body> <Raftag>Winners for day: {message}</Raftag></Modal.Body>
+                        <Modal.Body> <Raftag>Winners of the day: {message}</Raftag></Modal.Body>
                     <Modal.Footer>
                     <Button variant="secondary" onClick={handleClose}>
                             Close
