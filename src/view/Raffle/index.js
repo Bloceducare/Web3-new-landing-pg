@@ -16,12 +16,13 @@ const getLibrary = (provider) => {
 }
 
 const renderer = ({hours, minutes, seconds, completed}) => {
-  if (completed) {
+  if (!completed) {
     return(
     <>
   <Web3ReactProvider getLibrary={getLibrary}>
           <PageDiv>
             <ConnectBtn />
+            <Flex><Tag3> Countdown till next draw: {hours}Hr:{minutes}Min:{seconds}Sec</Tag3></Flex>
             <Flex>
                 <Image src={`images/logo-red-on-white.png`} fluid/>
             </Flex>
@@ -56,7 +57,8 @@ const renderer = ({hours, minutes, seconds, completed}) => {
     )
   } else {
       return (
-        <PageDiv>
+        <>
+        {/* <PageDiv>
           <Flex>
               <Image src={`images/const.svg`} fluid/>
           </Flex>
@@ -76,7 +78,42 @@ const renderer = ({hours, minutes, seconds, completed}) => {
               </Col>
             </Row>
           </Flex>
-        </PageDiv>
+        </PageDiv> */}
+         <Web3ReactProvider getLibrary={getLibrary}>
+        <PageDiv>
+            <ConnectBtn />
+            <Flex><Tag3> Countdown till next draw: {hours}Hr:{minutes}Min:{seconds}Sec</Tag3></Flex>
+            <Flex>
+                <Image src={`images/logo-red-on-white.png`} fluid/>
+            </Flex>
+            <Flex>
+                <Tag1>2nd Year Anniversary</Tag1>
+            </Flex>
+          </PageDiv>
+          <PageDiv>
+            <Flex>
+              <Tag2>
+                RAFFLE &nbsp; GIVEAWAY
+              </Tag2>
+            </Flex>
+          </PageDiv>
+          <PageDiv>
+            <Flex>
+              <Tag3>
+                CONNECT YOUR WALLET
+              </Tag3>
+            </Flex>
+            <Flex>
+              <Tag3>
+                TO CHECK YOUR RAFFLE NUMBER
+              </Tag3>
+            </Flex>
+            <Flex>
+              <ViewWinner />
+            </Flex>
+          </PageDiv>
+          </Web3ReactProvider>
+        </>
       )
   }
 }
@@ -86,7 +123,7 @@ const Raffle = () => {
 
     return (
         <>
-      <Countdown date={'0000000'} renderer={renderer}/>
+      <Countdown date={'2021-10-11T20:00:00'} renderer={renderer}/>
         </>
     )
 }
