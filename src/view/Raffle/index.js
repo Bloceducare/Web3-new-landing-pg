@@ -23,7 +23,7 @@ const renderer = ({hours, minutes, seconds, completed}) => {
           <PageDiv>
             <ConnectBtn />
             <Flex>
-                <LogoH src={`images/logo-red-on-white.png`} fluid/>
+                <Image src={`images/logo-red-on-white.png`} fluid/>
             </Flex>
             <Flex>
                 <Tag1>2nd Year Anniversary</Tag1>
