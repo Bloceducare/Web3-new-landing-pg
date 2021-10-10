@@ -2,7 +2,6 @@ import {React, useState} from 'react'
 import { Navbar, Nav, Container, Modal, Button, NavDropdown} from 'react-bootstrap';
 import {Logo} from './Navbar.style';
 import Count from '../ButtonCountdown';
-import { Btn } from '../Button';
 
 export const NavBar = () => {
   const [show, setShow] = useState(false);

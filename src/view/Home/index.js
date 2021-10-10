@@ -1,9 +1,9 @@
 import React from 'react'
 import { Col, Container,Image,Row } from 'react-bootstrap';
 import {BsShieldCheck} from 'react-icons/bs'
-import { Img,BrandImg, Hteam, RegTag1} from '../../components/Tag';
+import { BrandImg, Hteam, RegTag1} from '../../components/Tag';
 import Count from '../../components/ButtonCountdown';
-import Page from '../../components/PageCountdown';
+
 
 const Home = () => {
     return (

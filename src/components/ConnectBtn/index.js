@@ -4,7 +4,6 @@ import { useWeb3React} from '@web3-react/core'
 import {InjectedConnector} from "@web3-react/injected-connector";
 import { WalletBtn } from '../Button';
 import { testers } from '../../view/Raffle/data/testers';
-import { Flex } from '../../view/Raffle/Raffle.style';
 import { BtnDiv,Raftag } from '../Tag';
 
 const injected = new InjectedConnector({
@@ -19,8 +18,6 @@ const injected = new InjectedConnector({
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
     const data = testers;
-    console.log(data, "mmm")
-    let ans;
 
     const filtered = [...new Set(data)].map((item, index) => {
       return {
@@ -41,7 +38,7 @@ const injected = new InjectedConnector({
   }
      
 
-    const {active, account, library, connector, activate, deactivate} = useWeb3React()
+    const {active, account, activate, deactivate} = useWeb3React()
 
     const connect = async () => {
         try {

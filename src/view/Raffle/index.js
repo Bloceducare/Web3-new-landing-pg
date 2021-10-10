@@ -1,7 +1,7 @@
 "use strict";
-import React, { Component } from 'react'
-import { Image, Tab,Col,Row} from 'react-bootstrap';
-import { Flex, Tag1, Tag3, Tag2,LogoH, Div2} from './Raffle.style';
+import React from 'react'
+import { Image,Col,Row} from 'react-bootstrap';
+import { Flex, Tag1, Tag3, Tag2,LogoH} from './Raffle.style';
 import {Web3ReactProvider} from '@web3-react/core';
 import web3 from 'web3';
 import ConnectBtn from '../../components/ConnectBtn';

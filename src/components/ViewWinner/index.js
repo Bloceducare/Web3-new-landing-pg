@@ -8,7 +8,6 @@ import { Tag3 } from '../../view/Raffle/Raffle.style';
 
 
 const ViewWinner = () => {
-    const [count, setCount] = useState(1)
     let url = 'https://rpc-mainnet.maticvigil.com/'
     let customHttpProvider = new ethers.providers.JsonRpcProvider(url);
     const [round, setRound] = useState(0)
@@ -17,15 +16,12 @@ const ViewWinner = () => {
     const handleShow = () => setShow(true)
     const [show, setShow] = useState(false);
 
-  console.log(LuckLadabi, 'abi code')
     const handleChange = (e) => {
         setRound(e.target.value)
-      } 
-
-    const add = () => {
-        let day = 1
-        setCount(day)
     }
+    
+
+    
 
 
     const fetchWinner = async () => {
@@ -45,12 +41,12 @@ const ViewWinner = () => {
                 <option value="3">Day 4</option>
                 <option value="4">Day 5</option>
             </select>
-            <Button  onClick={() => [fetchWinner(),handleShow(), add()]}>Check winner</Button>
+            <Button  onClick={() => [fetchWinner(),handleShow()]}>Check winner</Button>
             <Modal show={show} onHide={handleClose} animation={false}>
                     <Modal.Header closeButton>
                         <Modal.Title>Winner</Modal.Title>
                     </Modal.Header>
-                        <Modal.Body> <Raftag>Winners for day {count}: {message}</Raftag></Modal.Body>
+                        <Modal.Body> <Raftag>Winners for day: {message}</Raftag></Modal.Body>
                     <Modal.Footer>
                     <Button variant="secondary" onClick={handleClose}>
                             Close
