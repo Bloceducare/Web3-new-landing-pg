@@ -17,7 +17,7 @@ const Count = () => {
       }
     return (
         <>
-            <Countdown date={'2021-10-12T21:00:00'} renderer={renderer} />
+            <Countdown date={'2021-10-12T08:00:00'} renderer={renderer} />
         </>
     )
 }
