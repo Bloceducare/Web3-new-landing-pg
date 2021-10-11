@@ -97,7 +97,7 @@ const Home = () => {
 
             <Row id="about">
                 <h1> About Us</h1>
-                <Col sm={12} lg={6}><Image src={`images/red.png`} fluid/></Col>
+                <Col sm={12} lg={6}><a href = "https://t.me/web3bridge" target="_blank"><Image src={`images/red.png`} fluid/></a></Col>
                 <Col>
                     <h1>Web3Bridge</h1> 
                     <h5>Core Objectives</h5>  
@@ -134,15 +134,16 @@ const Home = () => {
                 </Col>
                 <Col sm={6} md={6} lg={4}><Image className="marek-img" src={`images/Screenshot_20210823-215659_1.svg`} fluid/>
                 <Hteam>Billy Luedtke</Hteam>
-                    <p>Advisor,
-                    Founder Blockchain.lab (York University).
-                    Founder Blockchain Hub.
-                    Vice Chair, UN/CEFACT (Methodology & Technology)
+                    <p>Advisor
                     </p>
                 </Col>
                 <Col sm={6} md={6} lg={4}><Image src={`images/image 5 (3).png`} fluid/>
                 <Hteam>Marek Laskowski, PhD</Hteam>
-                    <p>Advisor</p>
+                    <p>Advisor,
+                        Founder Blockchain.lab (York University).
+                        Founder Blockchain Hub.
+                        Vice Chair, UN/CEFACT (Methodology & Technology)
+                    </p>
                 </Col>
             </Row>
             <Container>
