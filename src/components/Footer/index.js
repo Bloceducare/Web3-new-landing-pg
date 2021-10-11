@@ -17,7 +17,7 @@ const Footer = () => {
                             <FtTag>Web3Bridge</FtTag>
                             <FtLink href="/#about"> About us</FtLink>
                             <FtLink>Courses</FtLink>
-                            <FtLink>Blog</FtLink>
+                            <FtLink href="https://substack.com/profile/13380668-web3bridge">Blog</FtLink>
                         </Col>
                         <Col sm={12} md={6} lg={3}>
                             <FtTag>Support</FtTag>
