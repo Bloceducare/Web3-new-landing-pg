@@ -27,7 +27,7 @@ const renderer = ({hours, minutes, seconds, completed}) => {
                 <Image src={`images/logo-red-on-white.png`} fluid/>
             </Flex>
             <Flex>
-                <Tag1>2nd Year Anniversary</Tag1>
+                <Tag1>2nd Anniversary</Tag1>
             </Flex>
           </PageDiv>
           <PageDiv>
