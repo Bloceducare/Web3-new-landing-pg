@@ -133,7 +133,7 @@ const Home = () => {
                     <p>Web2 Director</p>
                 </Col>
                 <Col sm={6} md={6} lg={4}><Image className="marek-img" src={`images/Screenshot_20210823-215659_1.svg`} fluid/>
-                    <Hteam>Marek Laskowski, PhD</Hteam>
+                <Hteam>Billy Luedtke</Hteam><Hteam>Marek Laskowski, PhD</Hteam>
                     <p>Advisor,
                     Founder Blockchain.lab (York University).
                     Founder Blockchain Hub.
@@ -141,7 +141,7 @@ const Home = () => {
                     </p>
                 </Col>
                 <Col sm={6} md={6} lg={4}><Image src={`images/image 5 (3).png`} fluid/>
-                    <Hteam>Billy Luedtke</Hteam>
+                <Hteam>Marek Laskowski, PhD</Hteam>
                     <p>Advisor</p>
                 </Col>
             </Row>
