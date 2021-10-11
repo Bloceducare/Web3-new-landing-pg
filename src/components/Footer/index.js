@@ -27,7 +27,6 @@ const Footer = () => {
                         <Col sm={12} md={6} lg={3}>
                             <FtTag>Contact</FtTag>
                             <FtLink>support@web3bridge.com</FtLink>
-                            <FtLink>+234810000000</FtLink>
                             <FtLink href="https://t.me/web3bridge"><BsTelegram /> Telegram</FtLink>
                         </Col>
                         <Col sm={12} md={6} lg={3}>
