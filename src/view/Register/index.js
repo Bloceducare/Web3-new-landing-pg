@@ -19,7 +19,7 @@ const Register = () => {
                     <Button variant="info" href="https://forms.gle/3nPRxXTcFn9prSNv9"  target="_blank" >Register</Button>
                </Col>
                <Col sm={12} md={6} lg={6}>
-                    <RegTag2>Web3Bridge</RegTag2>
+                    <RegTag2>Web3 Track</RegTag2>
                     <p>
                         Web3bridge track is the core of the program as it focuses on migrating web2 developers into the web3 ecosystem.
                         We will be opening the cohort for one hundred and fifty(150)
