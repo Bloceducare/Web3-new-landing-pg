@@ -9,17 +9,17 @@ const Register = () => {
         <Container>
            <Row>
                <RegTag1>List of Track/Courses</RegTag1>
-               <Col>
+               <Col sm={12} md={6} lg={6}>
                     <RegTag2>Web2 Introduction</RegTag2>
                     <p>
                         Web2 introduction track will be introducing no-coders to Web2(HTML,CSS, Javascript). 
                         The track will be building on the result of the pilot program to increase the impact and
                         the reach of the track
                     </p>
-                    <Button variant="info" href="https://forms.gle/3nPRxXTcFn9prSNv9" >Register</Button>
+                    <Button variant="info" href="https://forms.gle/3nPRxXTcFn9prSNv9"  target="_blank" >Register</Button>
                </Col>
-               <Col>
-                    <RegTag2>Web3Bridge</RegTag2>
+               <Col sm={12} md={6} lg={6}>
+                    <RegTag2>Web3 Track</RegTag2>
                     <p>
                         Web3bridge track is the core of the program as it focuses on migrating web2 developers into the web3 ecosystem.
                         We will be opening the cohort for one hundred and fifty(150)
@@ -29,7 +29,7 @@ const Register = () => {
                </Col>
            </Row>
            <Row>
-               <Col>
+               <Col sm={12}>
                     <RegTag2>Web3 Garage</RegTag2>
                     <p>
                         With the number of web3 developers we have trained since the cohort started and those that have been 
@@ -37,7 +37,7 @@ const Register = () => {
                         The garage will be focused on learning product life cycle user research, community engagement,
                         marketing and within 12 weeks will be breaking and fixing codes to launch projects/ products
                     </p>
-                    <Button variant="info" href="https://forms.gle/JMU8jKUsnzT7QxcD6">Register</Button>
+                    <Button variant="info" href="https://forms.gle/JMU8jKUsnzT7QxcD6"    target="_blank">Register</Button>
                </Col>
            </Row>
         </Container> 

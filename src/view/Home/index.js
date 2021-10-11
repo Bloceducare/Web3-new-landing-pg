@@ -31,11 +31,11 @@ const Home = () => {
                 <Col sm={12} lg={6}>
                     <h1> Impact and Contributions</h1>
                     <h5>
-                        Over the past 18-months we have introduced and trained capacity in Blockchain, Web2 and Web3 technologies
+                        Over the past 18-months we have introduced and trained 273 new developers in  Web2 and Web3 technologies
                     </h5>
                     <h5>
-                        Our poll of specialist in expertise in various blockchain, web and mobile technology are contineously training and
-                        grooming talents in Blockchain technologies Nigeria and Africa.
+                        Our poll of specialist have expertise in various blockchain, web and mobile technology are contineously training and
+                        grooming talents in Blockchain technologies in Nigeria and across Africa.
                     </h5>
                     <h5>
                         Our dedicated experts are ever ready to mentor and groom more talent.
@@ -97,7 +97,7 @@ const Home = () => {
 
             <Row id="about">
                 <h1> About Us</h1>
-                <Col sm={12} lg={6}><Image src={`images/red.png`} fluid/></Col>
+                <Col sm={12} lg={6}><a href = "https://t.me/web3bridge" target="_blank"><Image src={`images/red.png`} fluid/></a></Col>
                 <Col>
                     <h1>Web3Bridge</h1> 
                     <h5>Core Objectives</h5>  
@@ -132,17 +132,18 @@ const Home = () => {
                     <Hteam>Jeremiah Noah</Hteam>
                     <p>Web2 Director</p>
                 </Col>
-                <Col sm={6} md={6} lg={4}><Image src={`images/Screenshot_20210823-215659_1.svg`} fluid/>
-                    <Hteam>Marek Laskowski, PhD</Hteam>
-                    <p>Advisor,
-                    Founder Blockchain.lab (York University).
-                    Founder Blockchain Hub.
-                    Vice Chair, UN/CEFACT (Methodology & Technology)
+                <Col sm={6} md={6} lg={4}><Image className="marek-img" src={`images/Screenshot_20210823-215659_1.svg`} fluid/>
+                <Hteam>Billy Luedtke</Hteam>
+                    <p>Advisor & Angel investor
                     </p>
                 </Col>
                 <Col sm={6} md={6} lg={4}><Image src={`images/image 5 (3).png`} fluid/>
-                    <Hteam>Billy Luedtke</Hteam>
-                    <p>Advisor</p>
+                <Hteam>Marek Laskowski, PhD</Hteam>
+                    <p>Advisor,
+                        Founder Blockchain.lab (York University).
+                        Founder Blockchain Hub.
+                        Vice Chair, UN/CEFACT (Methodology & Technology)
+                    </p>
                 </Col>
             </Row>
             <Container>
