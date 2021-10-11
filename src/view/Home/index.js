@@ -133,7 +133,7 @@ const Home = () => {
                     <p>Web2 Director</p>
                 </Col>
                 <Col sm={6} md={6} lg={4}><Image className="marek-img" src={`images/Screenshot_20210823-215659_1.svg`} fluid/>
-                <Hteam>Billy Luedtke</Hteam><Hteam>Marek Laskowski, PhD</Hteam>
+                <Hteam>Billy Luedtke</Hteam>
                     <p>Advisor,
                     Founder Blockchain.lab (York University).
                     Founder Blockchain Hub.
