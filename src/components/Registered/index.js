@@ -10,23 +10,22 @@ const api = axios.create({
 })
 
 const Registered = () => {
-    const {loading, error, count:hookCount} = useReg(1)
-    const {loadingtwo, errortwo, count:hookCount2} = useReg(2)
-    console.log(loading)
+    const {loadingtwo, errortwo, count:hookCount2} = useReg(2);
+    const {loading, error, count:hookCount} = useReg(1);
+   
+    console.log(loading,"one", loadingtwo, "two")
     
     return (
         <Flex>
-            {/* {!loading && !loadingtwo?
+            {!loading && !loadingtwo ?
                 <h5>Total number registered for{" "}
                 <Typical
                     loop={Infinity}
                     wrapper="b"
                     steps={[
                     `web3: ${hookCount}`, 1000,
-                    `web2: ${hookCount2}`, 1000
-                ]}
-                />
-            </h5> : <div> </div>} */}
+                    `web2: ${hookCount2}`, 1000]} />
+            </h5> : <div> </div>}
         </Flex>
     )
 }
