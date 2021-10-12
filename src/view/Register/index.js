@@ -2,11 +2,13 @@ import React from "react";
 import { Col,Row,Container,Button} from "react-bootstrap";
 import { Links } from "../../components/Link";
 import { RegTag1,RegTag2} from "../../components/Tag";
+import Registered from "../../components/Registered";
 
 const Register = () => {
     return (
         <>
         <Container>
+            <Registered />
            <Row>
                <RegTag1>List of Track/Courses</RegTag1>
                <Col sm={12} md={6} lg={6}>
