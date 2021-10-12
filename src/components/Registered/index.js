@@ -16,7 +16,7 @@ const Registered = () => {
     
     return (
         <Flex>
-            {!loading && !loadingtwo?
+            {/* {!loading && !loadingtwo?
                 <h5>Total number registered for{" "}
                 <Typical
                     loop={Infinity}
@@ -26,7 +26,7 @@ const Registered = () => {
                     `web2: ${hookCount2}`, 1000
                 ]}
                 />
-            </h5> : <div> </div>}
+            </h5> : <div> </div>} */}
         </Flex>
     )
 }
