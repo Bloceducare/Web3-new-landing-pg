@@ -10,23 +10,31 @@ const api = axios.create({
 })
 
 const Registered = () => {
-    const {loadingtwo, errortwo, count:hookCount2} = useReg(2);
-    const {loading, error, count:hookCount} = useReg(1);
+    const {loadingtwo, errortwo, hookCount2} = useReg(2);
+    const {loading, error, hookCount} = useReg(1);
    
-    console.log(loading,"one", loadingtwo, "two")
+    console.log(hookCount2?.number,"one")
+
     
     return (
-        <Flex>
-            {!loading && !loadingtwo ?
-                <h5>Total number registered for{" "}
-                <Typical
-                    loop={Infinity}
-                    wrapper="b"
-                    steps={[
-                    `web3: ${hookCount}`, 1000,
-                    `web2: ${hookCount2}`, 1000]} />
-            </h5> : <div> </div>}
-        </Flex>
+        // <Flex>
+        //     {(loading && loadingtwo) ?
+        //         null : <div> 
+        //             <h5>Total number registered for{" "}
+        //         <Typical
+        //             loop={Infinity}
+        //             wrapper="b"
+        //             steps={[
+        //             `web3: ${hookCount?.number===0 ? 'checking' :hookCount?.number}`, 1000,
+        //             `web2: ${hookCount2?.number===0 ? 'checking 2':hookCount2?.number}`, 1000]} />
+        //     </h5>
+        //             </div>}
+        //            two {hookCount2?.number}
+        //            <br />
+        //             three{hookCount?.number}
+            {/* {(loading && loadingtwo) && 'loading'}
+            {hookCount?.number && hookCount?.number} */}
+        // </Flex>
     )
 }
 
