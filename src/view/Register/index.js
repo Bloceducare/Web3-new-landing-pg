@@ -8,7 +8,7 @@ const Register = () => {
     return (
         <>
         <Container>
-            <Registered />
+            {/* <Registered /> */}
            <Row>
                <RegTag1>List of Track/Courses</RegTag1>
                <Col sm={12} md={6} lg={6}>
