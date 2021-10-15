@@ -26,9 +26,9 @@ import ScrollToTop from './components/ScrollToTop';
           <Route path="/Register">
             <Register />
           </Route>
-          <Route path="/Raffle">
+          {/* <Route path="/Raffle">
             <Raffle />
-          </Route>
+          </Route> */}
         </Switch>
         <Footer />
         </Router>
