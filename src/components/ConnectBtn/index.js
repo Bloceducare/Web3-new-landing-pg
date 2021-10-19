@@ -30,7 +30,7 @@ const injected = new InjectedConnector({
   const getindex = () => {
     console.log(account, "gvnnnn")
     console.log(filtered, "check")
-    const res = filtered.find(item => item.add == account)
+    const res = filtered.find(item => item.add === account)
     if(!res?.index){
         return setMessage("Sorry, your address is not found eligible for the draw")
     }

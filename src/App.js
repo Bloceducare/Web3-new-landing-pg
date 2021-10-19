@@ -5,7 +5,7 @@ import {BrowserRouter as Router,Switch,Route} from 'react-router-dom'
 import Home from "./view/Home";
 import Footer from './components/Footer';
 import Register from './view/Register';
-import Raffle from './view/Raffle';
+// import Raffle from './view/Raffle';
 import { Flex } from './view/Raffle/Raffle.style';
 import Countdown from 'react-countdown';
 import { Image,Col,Row } from 'react-bootstrap';

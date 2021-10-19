@@ -5,8 +5,8 @@ import MovingComponent from 'react-moving-text'
 
 
 const Registered = () => {
-    const [ltwo, lerr, count2]= useReg(2)
-    const [loading, error, count1]= useReg(1);
+    const [,, count2]= useReg(2)
+    const [,, count1]= useReg(1);
    
 
     console.log(count1,"one")

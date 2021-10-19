@@ -1,12 +1,11 @@
-"use strict";
 import React from 'react'
-import { Image,Col,Row} from 'react-bootstrap';
-import { Flex, Tag1, Tag3, Tag2,LogoH} from './Raffle.style';
+import { Image} from 'react-bootstrap';
+import { Flex, Tag1, Tag3, Tag2} from './Raffle.style';
 import {Web3ReactProvider} from '@web3-react/core';
 import web3 from 'web3';
 import ConnectBtn from '../../components/ConnectBtn';
 import ViewWinner from '../../components/ViewWinner';
-import { Span1, Span2, Span3,PageDiv} from '../../components/Tag';
+import {PageDiv} from '../../components/Tag';
 import Countdown from 'react-countdown';
 
 
@@ -118,7 +117,6 @@ const renderer = ({hours, minutes, seconds, completed}) => {
   }
 }
 
-let ans;
 const Raffle = () => {
 
     return (
