@@ -1,7 +1,7 @@
 import React from 'react'
 import { Row,Col, Card } from 'react-bootstrap'
 import { Logo } from '../NavBar/Navbar.style'
-import { FtTag, FtLink } from './Footer.style'
+import { FtTag, FtLink, FtInput, Subscribe, SubscribeBtn} from './Footer.style'
 import { BsTwitter, BsInstagram, BsTelegram } from 'react-icons/bs'
 
 const Footer = () => {
@@ -35,6 +35,14 @@ const Footer = () => {
                             <FtLink href=""><BsInstagram /> &nbsp; @web3bridge </FtLink>
                         </Col>
                     </Row>
+                    {/* <Row>
+                      <Subscribe lg={12}> 
+                        <form>
+                            <FtInput placeholder='Email' type="text"/>
+                            <SubscribeBtn>Subscribe</SubscribeBtn>
+                        </form>
+                      </Subscribe>
+                    </Row> */}
                 </Card.Body>
                 <Card.Footer className="text-muted">
                     <Row>
