@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Interested in contributing to this project
+Check out this link on how to contribute to a project
+https://www.dataschool.io/how-to-contribute-on-github/
+
 ## Available Scripts
 
 In the project directory, you can run:
