@@ -19,6 +19,7 @@ export const NavBar = () => {
             <Nav className="me-auto">
               {/* <Nav.Link href="/Raff">Training</Nav.Link> */}
               <Nav.Link href="/#about">About us</Nav.Link>
+              <Nav.Link href='/participants'>Participants</Nav.Link>
               <NavDropdown title="Contact us" id="basic-nav-dropdown">
               <NavDropdown.Item href="https://t.me/web3bridge">Telegram</NavDropdown.Item>
               <NavDropdown.Item href="https://twitter.com/Web3Bridge?s=20">Twitter</NavDropdown.Item>

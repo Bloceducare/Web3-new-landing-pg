@@ -11,6 +11,7 @@ import Countdown from 'react-countdown';
 import { Image,Col,Row } from 'react-bootstrap';
 import { Span1, Span2, Span3,PageDiv} from './components/Tag';
 import ScrollToTop from './components/ScrollToTop';
+import Participants from './view/Participants';
 
   const renderer = ({hours, minutes, seconds, completed}) => {
       if (completed) {
@@ -22,6 +23,9 @@ import ScrollToTop from './components/ScrollToTop';
         <Switch>
           <Route exact path="/">
               <Home/>
+          </Route>
+          <Route path="/participants">
+            <Participants />
           </Route>
           <Route path="/Register">
             <Register />
