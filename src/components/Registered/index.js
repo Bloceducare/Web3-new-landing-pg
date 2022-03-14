@@ -9,9 +9,6 @@ const Registered = () => {
     const [,, count1]= useReg(1);
    
 
-    console.log(count1,"one")
-    console.log(count2,"two")
-
     
     return (
         <Flex>

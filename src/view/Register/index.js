@@ -18,7 +18,7 @@ const Register = () => {
                         The track will be building on the result of the pilot program to increase the impact and
                         the reach of the track
                     </p>
-                    <Button variant="info" href="https://forms.gle/3nPRxXTcFn9prSNv9"  target="_blank" >Register</Button>
+                    <Button variant="info" href="https://forms.gle/G9XqPBwtdhAVRBxu8"  target="_blank" >Register</Button>
                </Col>
                <Col sm={12} md={6} lg={6}>
                     <RegTag2>Web3 Track</RegTag2>
@@ -27,7 +27,7 @@ const Register = () => {
                         We will be opening the cohort for one hundred and fifty(150)
                         web2 developers with the goal of graduating seventy(70) developers and a minimum of three(3) projects/dapps.
                     </p>
-                    <Links href="https://docs.google.com/forms/d/1wpkcdvhobpTQnZz7q85DfLMpHvqxX0PU9fvc9V6eZkI/edit" target="_blank">Register</Links>
+                    <Links href="https://forms.gle/r7Z4bnkdtqDroroYA" target="_blank">Register</Links>
                </Col>
            </Row>
            <Row>
