@@ -30,7 +30,7 @@ const Register = () => {
                     <Links href="https://forms.gle/r7Z4bnkdtqDroroYA" target="_blank">Register</Links>
                </Col>
            </Row>
-           <Row>
+           {/* <Row>
                <Col sm={12}>
                     <RegTag2>Web3 Garage</RegTag2>
                     <p>
@@ -41,7 +41,7 @@ const Register = () => {
                     </p>
                     <Button variant="info" href="https://forms.gle/JMU8jKUsnzT7QxcD6"    target="_blank">Register</Button>
                </Col>
-           </Row>
+           </Row> */}
         </Container> 
         </>
     )
